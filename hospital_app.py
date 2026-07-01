@@ -52,7 +52,7 @@ skin_rash = st.checkbox("Skin Rash")
 
 st.header("Medical Information")
 
-chief_complaint = st.selection(
+chief_complaint = st.selectbox(
   "Chief Complaint",
   list(cc_map.keys())
 )
