@@ -57,7 +57,7 @@ chief_complaint = st.selectbox(
   list(cc_map.keys())
 )
 
-duration = st.selection(
+duration = st.selectbox(
   "Duration",
   list(dur_map.keys())
 )
