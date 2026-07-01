@@ -96,7 +96,7 @@ if st.button("Predict Department"):
     'heart_rate_level':
       hr_map.het(heart_rate_level, 1),
 
-    'duration'
+    'duration':
       dur_map.get(duration, 1),
 
     'asthma': int(asthma),
