@@ -28,7 +28,7 @@ st.leader("Patient Information")
 
 age = st.number_input(
   "age",
-min-value=1,
+min_value=1,
 mac_value=120,
 value=35
 )
