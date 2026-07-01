@@ -105,9 +105,9 @@ if st.button("Predict Department"):
 
     'chief_complaint':
       cc_map.get(chief_complaint, 9)   
-}])
+  }])
 
-patinet_scaled = patient.copy()
+patient_scaled = patient.copy()
 
 patient_scaled[cols_to_scale] = scaler.transform(
   patient[cols_to_scale]
