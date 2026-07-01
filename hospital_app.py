@@ -23,3 +23,17 @@ temp_map = bundle['temp_map']
 hr_map = bundle['hr_map']
 dur_map = bundle['dur_map']
 cc_map = bundle['cc_map']
+
+st.leader("Patient Information")
+
+age = st.number_input(
+  "age",
+min-value=1,
+mac_value=120,
+value=35
+)
+
+gender = st.selectbox(
+  "Gender"
+  ["Female", "Male"]
+)
