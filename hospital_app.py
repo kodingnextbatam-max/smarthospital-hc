@@ -27,7 +27,7 @@ cc_map = bundle['cc_map']
 st.header("Patient Information")
 
 age = st.number_input(
-  "age",
+ "Age",
 min_value=1,
 mac_value=120,
 value=35
