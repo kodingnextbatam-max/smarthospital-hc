@@ -86,7 +86,7 @@ if st.button("Predict Department"):
     'chest_pain': int(chest_pain),
     'stomach_pain': int(stomach_pain),
     'shortness_breath': int(shortness_breath),
-    'nausea_vomiting': int(nausea_vominting),
+    'nausea_vomiting': int(nausea_vomiting),
     'dizzinesss': int(dizziness),
     'skin_rash': int(skin_rash),
 
