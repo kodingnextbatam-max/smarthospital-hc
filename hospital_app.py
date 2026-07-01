@@ -58,7 +58,7 @@ chief_complaint = st.selection(
 )
 
 duration = st.selection(
-  "Duration"
+  "Duration",
   list(dur_map.keys())
 )
 
